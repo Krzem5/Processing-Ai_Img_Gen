@@ -2,11 +2,11 @@ int SIZE=22;
 int T_SIZE=25;
 int M_T_SIZE=800;
 
-void setup() {
+void setup(){
   size(1080, 1080);
 }
 
-void draw() {
+void draw(){
   background(255,255,255);
   fill(0);
   textFont(createFont("consolas", M_T_SIZE));
